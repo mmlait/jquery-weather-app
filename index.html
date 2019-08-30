@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Weather</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <!--Bootstrap CSS ENDS-->
+    <link rel="stylesheet" href="custom.css">
+    <link rel="shortcut icon"
+    href="images/favicon.ico"
+    type="image/x-icon">
+  </head>
+  <body>
+
+    <div class="App-background w-100">
+      <div class="weather-background pt-5 h-100 w-100">
+        <div class="container text-center mb-5 pl-0 pr-0 text-light">
+          <h1 class="pb-5 display-3">Helsinki</h1>
+          <div class="row d-flex align-items-center mx-auto">
+            <div id="weather-image" class="col-lg-7 pb-5">
+              <img class="img-fluid w-75" src="" alt="Weather">
+            </div>
+            <div class="col-lg-5 pb-5">
+              <p id="temperature"></p>
+              <p id="weather-description"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/weather.js"></script>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+}
+
+.App-background {
+  background-image: url('images/sky.jpg');
+  background-size: cover;
+}
+
+.weather-background {
+  background-color: rgba(29, 37, 140, .6);
+  min-height: 100vh;
+  padding-bottom: 3.2rem;
+}
+
+.container {
+  font-family: Candara, Perpetua, serif;
+  background: linear-gradient(rgb(43, 96, 138), #9198e5);
+  border: 2px solid black;
+  min-height: 60vh;
+  width: 80%;
+}
+
+h1 {
+  padding-top: 8.5vh;
+}
+
+.row {
+  width: 70%;
+}
+
+#temperature {
+  font-size: 5.2rem;
+}
+
+#temperature:after {
+  content: "\2103";
+}
+
+#weather-description {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 576px) {
+  #weather-image img {
+    width: 65%;
+  }
+}
